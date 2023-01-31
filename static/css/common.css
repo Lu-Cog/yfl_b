@@ -1,0 +1,89 @@
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-around {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.flex-bt {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bg {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+body {
+	font-family: PingFang SC;
+}
+
+.clamp {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+
+.clamp2 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+
+.clamp3 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+
+.clamp4 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+}
+
+/* 细线 */
+.hr {
+	height: 1px;
+	box-shadow: inset 1px -1px 1px -1px #E4E4E4;
+}
+
+.shadow_block {
+	background: #FFFFFF;
+	box-shadow: 0px 0.75px 4.5px/2 0px rgba(22, 152, 174, 0.34);
+	border-radius: 5px;
+}
+
+.main_btn {
+	width: 51px;
+	height: 19px;
+	background: linear-gradient(0deg, #1698AE, #43C2D7) !important;
+	box-shadow: 0px 1px 10px 0px rgba(22, 152, 174, 0.5);
+	border-radius: 10px !important;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF !important;
+}
+.rich_body {
+	padding: 27px 0;
+	border-radius: 4px;
+}
+.rich_body image {
+	width: 100%;
+}
+
+.blue{
+	color: #1698AE !important;
+}
